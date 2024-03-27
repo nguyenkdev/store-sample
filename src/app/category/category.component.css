@@ -1,0 +1,24 @@
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+  min-width: 132px;
+  cursor: pointer;
+}
+.category-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
